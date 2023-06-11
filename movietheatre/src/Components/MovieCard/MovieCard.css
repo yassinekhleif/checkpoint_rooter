@@ -1,0 +1,35 @@
+.MovieCard {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+  }
+  
+  .MovieCard img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .MovieCard .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .MovieCard .title {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .MovieCard .description {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  .MovieCard .rating {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  

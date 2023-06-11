@@ -1,0 +1,31 @@
+.Filter {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .Filter label {
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+  
+  .Filter input {
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .Filter button {
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .Filter button:hover {
+    background-color: #f0f0f0;
+  }
+  
